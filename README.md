@@ -10,7 +10,7 @@
 要模拟异步资源请求，后端api接口必不可少。 
 但该项目最终托管在github pages上，不存在后端服务，因此我将相应的资源写在json文件中。
 
-后端资源以[persons.json](src/services/persons.json)为例：  
+后端资源以[persons.json](public/services/persons.json)为例：  
 ```json
 [
   {
@@ -45,4 +45,4 @@ export const httpGet = async (url) => {
 
 ### 真实模拟
 
-真实模拟的逻辑在[App.js](src/App.js)中，具体呈现的效果[点击此处]()
+真实模拟的逻辑在[App.js](src/App.js)中，具体呈现的效果[点击此处](https://familyboat.github.io/async-resource)
